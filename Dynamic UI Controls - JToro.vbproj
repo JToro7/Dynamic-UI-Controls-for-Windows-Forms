@@ -70,6 +70,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JT_Button.Designer.vb">
+      <DependentUpon>JT_Button.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JT_Button.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="JT_Toggle.Designer.vb">
       <DependentUpon>JT_Toggle.vb</DependentUpon>
     </Compile>
