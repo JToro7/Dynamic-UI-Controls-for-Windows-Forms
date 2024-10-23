@@ -76,6 +76,12 @@
     <Compile Include="JT_Button.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="JT_TextBox.Designer.vb">
+      <DependentUpon>JT_TextBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JT_TextBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="JT_Toggle.Designer.vb">
       <DependentUpon>JT_Toggle.vb</DependentUpon>
     </Compile>
@@ -99,6 +105,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="JT_TextBox.resx">
+      <DependentUpon>JT_TextBox.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
