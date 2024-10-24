@@ -82,6 +82,12 @@
     <Compile Include="JT_TextBox.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="JT_TextBoxFecha.Designer.vb">
+      <DependentUpon>JT_TextBoxFecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JT_TextBoxFecha.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="JT_Toggle.Designer.vb">
       <DependentUpon>JT_Toggle.vb</DependentUpon>
     </Compile>
